@@ -1,0 +1,103 @@
+.payment-container {
+    max-width:700px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 18px #0056b3;
+    margin-top:180px;
+  }
+  
+  .payment-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .payment-container p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .payment-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .payment-container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .payment-container button:hover {
+    background-color: #0056b3;
+  }
+  .red-text {
+    color: red;
+  }
+  
+  
+  .payment-layout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .payment-image {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .payment-image img {
+    width:290%;
+    height:350px;
+
+  }
+  
+  .payment-form {
+    flex: 2;
+    padding: 0 20px;
+    margin-left: 100px;
+  }
+  
+  .payment-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .payment-form p {
+    margin-bottom: 10px;
+  }
+  
+  .payment-form select,
+  .payment-form button {
+    margin-top: 10px;
+  }
+  
+  .payment-status {
+    margin-top: 20px;
+  }
+  
+  .backbutton {
+    margin-top: 20px;
+  }
+  .payment-logo{
+    width:250px;
+    height:250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+  }
+  
+  
+  

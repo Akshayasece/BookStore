@@ -1,0 +1,74 @@
+.auth-container {
+    width: 600px;
+    height: 340px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 2px double #ccc;
+    border-radius: 5%;
+    background-color: #f9f9f9;
+    text-align: center; 
+    box-shadow: 2px 2px 22px rgb(81, 143, 223);
+    
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #5D3FD3;
+    font-style: italic;
+}
+input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.btnn {
+    width: 50%;
+    padding: 10px;
+    font-style: italic;
+    background-color:#5D3FD3;
+    color: #fff;
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btnn:hover {
+    background-color:rgb(81, 143, 223);
+}
+
+.layout {
+    display: flex;
+    flex-direction: row;
+}
+
+.sign-image {
+    width: 50%;
+}
+
+.sign-image img {
+    width: 95%;
+    height:335px;
+}
+
+.sign-form {
+    width:50%;
+    padding: 0 20px;
+}
+
+.sign-form h2 {
+    margin-bottom: 20px;
+}
+
+.sign-form input {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.sign-form button {
+    width: 40%;
+}

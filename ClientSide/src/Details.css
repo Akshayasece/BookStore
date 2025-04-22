@@ -1,0 +1,25 @@
+.det{    
+    width: 50%;
+    height:600px;
+    display: block;   
+    margin-top: 300px;
+    margin-bottom: 30px;
+   border-radius: 7%;
+   font-size: 1.2rem;  
+   margin-right: 100px;
+  padding-left:180px;
+  padding-top: 100px;
+  padding-right: 70px;
+}
+.but{
+    background-color: #68a9ee;
+    color: black;
+    width: 20%;
+    /* margin-left:300px; */
+    border-radius:10%;
+    margin-left: 300px;
+}
+.details-box{
+    background-image: url("DetailsBkImg.jpeg")
+   
+}
